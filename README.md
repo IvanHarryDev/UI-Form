@@ -2,7 +2,9 @@
 
 **NEXUS** is a Minecraft Bedrock add-on that adds a full menu with a graphical interface, its own economy, and tools for players and administrators. It opens when you right-click on the compass or the clock and works in **Spanish and English**: each player chooses their language and sees the menu in their own language, even if another player in the same game is using the other language.
 
-![Menú principal](docs/menu.png)
+![Menú principal](public/1.png)
+![Menú principal](public/2.png)
+![Menú principal](public/3.png)
 
 ## Features
 
