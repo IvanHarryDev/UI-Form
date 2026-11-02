@@ -1,0 +1,71 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Harry"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.54"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	},
+	"header": {
+		"name": "UI Form",
+		"description": "",
+		"min_engine_version": [
+			1,
+			26,
+			0
+		],
+		"uuid": "6c58891b-f956-4733-bfff-0f455be53fb7",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "fb67e781-6a69-464f-9a8c-402d7ed34a57",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "5186ca56-c9e6-4973-a2cd-ca7b942cf93d",
+			"entry": "scripts/main.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "3ff8651c-947e-49cb-acad-306fad0c2cd1",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "2.9.0"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "2.1.0"
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"type": "minecraftBedrock",
+	"name": "UI Form",
+	"namespace": "ui",
+	"authors": [
+		"Harry"
+	],
+	"targetVersion": "1.26.0",
+	"description": "",
+	"experimentalGameplay": {
+		"upcomingCreatorFeatures": true,
+		"experimentalCreatorCameraFeatures": true,
+		"enableGameTestFramework": true,
+		"renderDragonFeatures": false,
+		"educationEdition": false
+	},
+	"bdsProject": true,
+	"packs": {
+		"behaviorPack": "./BP",
+		"resourcePack": "./RP"
+	},
+	"worlds": [
+		"./worlds/*"
+	],
+	"compiler": {
+		"plugins": [
+			"generatorScripts",
+			"typeScript",
+			"entityIdentifierAlias",
+			"customEntityComponents",
+			"customItemComponents",
+			"customBlockComponents",
+			"customCommands",
+			"moLang",
+			"formatVersionCorrection",
+			[
+				"simpleRewrite",
+				{
+					"packName": "UI Form"
+				}
+			]
+		]
+	},
+	"bridge": {
+		"darkTheme": "se7en.onedark"
+	}
+}
